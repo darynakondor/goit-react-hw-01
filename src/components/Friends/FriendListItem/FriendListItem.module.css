@@ -1,0 +1,21 @@
+.avatar {
+    width: 120px;
+    margin-bottom: 30px;
+}
+
+.username {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.isOnline {
+    font-size: 28px;
+}
+
+.online {
+    color: rgb(31, 187, 4);
+}
+
+.offline {
+    color: rgb(187, 4, 4);
+}

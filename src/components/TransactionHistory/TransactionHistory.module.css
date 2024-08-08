@@ -1,0 +1,37 @@
+.table {
+    font-size: 24px;
+    width: 800px;
+    margin: 0 auto;
+    border: 2px solid #000000;
+}
+
+.head {
+    background-color: rgb(44, 42, 42);
+    color: #ffffff;
+}
+
+.row {
+    border-bottom: 2px solid #000000;
+}
+
+.row:last-child {
+    border-bottom: none;
+}
+
+.body .row:nth-child(2n) {
+    background-color: rgb(210, 209, 209);
+}
+
+.body .row td {
+    text-transform: capitalize;
+}
+
+.head .row th, .body .row td {
+    padding: 8px 0;
+    border-right: 2px solid #000000;
+}
+
+.body .row td:last-child {
+    border-bottom: none;
+}
+
